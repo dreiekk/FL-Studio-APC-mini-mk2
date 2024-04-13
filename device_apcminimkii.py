@@ -344,12 +344,7 @@ APC_COLORS = (
 
 def closestApcColor(rgb):
     r, g, b = rgb
-    color_diffs = []
-    for color in APC_COLORS:
-        index, cr, cg, cb = color
-        color_diff = math.sqrt((r - cr)**2 + (g - cg)**2 + (b - cb)**2)
-        color_diffs.append((color_diff, color))
-    return min(color_diffs)[1]
+    return min(APC_COLORS, key=lambda c: abs(r - c[1]) + abs(g - c[2]) + abs(b - c[3]))
 
 
 def flColorHexToNearestApcIndex(colorHex):
