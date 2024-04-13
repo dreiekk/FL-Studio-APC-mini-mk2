@@ -10,7 +10,10 @@ MIDI Controller Script for AKAI APC mini mk2 for FL Studio "Live Performance Mod
 * Clip colors and status are displayed on the MIDI controller grid
 * Beat indicator (lights of bottom left buttons labeled "Fader CTRL")
 
-_(insert demo GIF here)_
+## Demo
+
+https://github.com/dreiekk/FL-Studio-APC-mini-mk2/assets/25348281/3ef2905f-1600-4b22-80b4-aa49a05bb02d
+
 
 ## How to use
 
@@ -21,6 +24,7 @@ and copy the `device_apcminimkii.py` file from this repository into this newly c
 You can now select the controller type `AKAI APC mini MKii (Performance Mode)` for your MIDI controller.
 
 ![grafik](https://github.com/dreiekk/FL-Studio-APC-mini-mk2/assets/25348281/b9e793d7-0f78-474d-acc2-f4cec53d1610)
+
 
 ## Docs
 
