@@ -20,10 +20,8 @@
 
 import math
 
-import mixer
 import midi
 import device
-import ui
 import playlist
 import transport
 import utils
