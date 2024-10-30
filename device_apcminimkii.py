@@ -84,7 +84,7 @@ def OnNoteOn(event):
 
     if event.data1 >= 112 and event.data1 <= 119:
 
-        trackIndex = event.data1 - (112 - 1)
+        trackIndex = event.data1 - (112 - 1)  + zone_offset_y
 
         print('Muting track: ', trackIndex)
 
